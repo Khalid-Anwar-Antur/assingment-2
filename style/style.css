@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ms+Madi&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Work Sans", serif;
+    background-color: black;
+
+
+}
+
+.max-width{
+    max-width: 1080px;
+margin: auto;
+}
+/* hero-section */
+.header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.fitness{
+    font-size: 2.2rem;
+    color: rgb(230, 83, 60);   
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-ul{
+    color: aliceblue;
+    font-size: 1.1rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    box-sizing: border-box;
+   
+    
+    margin: 0px;
+    padding: 0px;
+}
+.Home{
+    background-color:rgb(230, 83, 60) ;
+    border-radius: 46px;
+    padding:  8px 20px ;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 5px;
+    padding-right: 25px;
+}
+/* nav done */
+
+/* hero content */
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero-content-div-1{
+    max-width: 520px;
+}
+.hero-content-div-1-h1{
+    color: rgb(255, 255, 255);
+font-size: 5rem;
+font-weight: 800;
+
+}
+.hero-content-div-1-span{
+    font-family: "Ms Madi", cursive;
+    font-weight: 600;
+
+}
+.hero-content-div-1-p{
+color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+
+}
+.hero-content-div-1-btn-div{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.btn{
+    border-radius: 42px;
+
+background: rgb(230, 83, 60);
+border: none;
+color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 600;
+padding: 16px 40px 16px 40px;
+}
+.btn-2{
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;   
+    background-color: transparent; 
+    color: rgb(255, 255, 255);
+}
+.video350{
+ display: inline;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+
+}
+.video350-flex{
+    position: relative;
+    margin-left: 70px ;
+    margin-top: -163px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    /* Rectangle 17 */
+    
+    width: 350px;
+    height: 96px;
+    /* left: 764px;
+    top: 556px; */
+    /* gap: 1rem; */
+    /* margin: 1.1rem; */
+    /* padding: 1rem; */
+}
+.circle{
+    background-color: rgb(230, 83, 60);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.had{
+    color: rgb(250, 250, 249);
+font-size: 24px;
+font-weight: 900;
+/* margin-bottom: 0rem;
+padding-bottom: 0rem; */
+}
+.pad{
+    color: rgba(239, 237, 232, 0.65);
+font-size: 16px;
+display: inline;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+.video350-flex-2{
+    position: relative;
+    margin-left: 1107px;
+    margin-bottom: 357px;
+    position: relative;
+    margin-left: 70px ;
+    margin-top: -163px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    /* Rectangle 17 */
+    
+    width: 350px;
+    height: 96px;
+}
+
